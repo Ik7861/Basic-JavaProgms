@@ -18,12 +18,11 @@ public class Factorial {
         return ;
     }
     
-public static void main(String arg[] ){
+public static void main(String arg[]) {
     Scanner sc = new Scanner(System.in);
    int n = sc.nextInt();
 
    printfactorial(n);
-
 
     sc.close();
 
